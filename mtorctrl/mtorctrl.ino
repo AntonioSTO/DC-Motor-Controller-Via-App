@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL2Ayjmckre"
-#define BLYNK_TEMPLATE_NAME "DC motor speed control"
-#define BLYNK_AUTH_TOKEN "PRFl4GIHtJwfsTWrYFD0DnKbRapyF71X"
+#define BLYNK_TEMPLATE_ID "***"
+#define BLYNK_TEMPLATE_NAME "***"
+#define BLYNK_AUTH_TOKEN "***"
 #include <Wire.h>
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -14,8 +14,8 @@ LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 
 
 char auth[] = BLYNK_AUTH_TOKEN;
-const char* ssid = "PET ELETRICA";
-const char* pass = "#Lenz160@";
+const char* ssid = "***";
+const char* pass = "***";
 BlynkTimer timer;
 
 // Set the motor driver pins
