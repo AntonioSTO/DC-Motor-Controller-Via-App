@@ -65,7 +65,6 @@ BLYNK_WRITE(V0) {
   int pwmWave = map(data,  0, 4095, 0, 255);
 
   Serial.println(data);
-  analogWrite(DCMTOR, data/16);
   // set the cursor to position
   lcd.clear();
   lcd.setCursor(0, 0);
